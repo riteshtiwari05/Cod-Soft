@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Major Landing Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header class="header">
+        <nav class="navbar">
+            <div class="container">
+                <h1 class="logo">Ritesh Tiwari Landing Page</h1>
+                <ul class="nav-menu">
+                    <li><a href="#features">Features</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#testimonials">Testimonials</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        <div class="hero">
+            <div class="container">
+                <h2 class="hero-heading">Revolutionize Your Business</h2>
+                <p class="hero-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec felis ut mi tempor imperdiet non ac odio.</p>
+                <a href="#contact" class="btn">Get Started</a>
+            </div>
+        </div>
+    </header>
+    <section id="features" class="features-section">
+        <div class="container">
+            <h2 class="section-heading">Key Features</h2>
+            <div class="features">
+                <div class="feature">
+                    <img src="feature1.jpg" alt="Feature 1">
+                    <h3>Responsive Design</h3>
+                    <p>Works seamlessly on all devices and screen sizes.</p>
+                </div>
+                <div class="feature">
+                    <img src="feature2.jpg" alt="Feature 2">
+                    <h3>Customizable</h3>
+                    <p>Customize every aspect to fit your brand's needs.</p>
+                </div>
+                <div class="feature">
+                    <img src="feature3.jpg" alt="Feature 3">
+                    <h3>Fast Performance</h3>
+                    <p>Lightning-fast loading times for optimal user experience.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="about" class="about-section">
+        <div class="container">
+            <h2 class="section-heading">About Us</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec felis ut mi tempor imperdiet non ac odio. Vivamus et lectus urna. Vestibulum nec purus mi. Aenean euismod risus non tellus convallis, ac vestibulum purus feugiat.</p>
+        </div>
+    </section>
+    <section id="testimonials" class="testimonials-section">
+        <div class="container">
+            <h2 class="section-heading">Testimonials</h2>
+            <div class="testimonial">
+                <img src="avatar-placeholder.jpg" alt="Testimonial 1">
+                <blockquote>"This product completely changed the game for us. We're more efficient and our customers love it!"</blockquote>
+                <cite>John Doe, CEO of Company X</cite>
+            </div>
+            <div class="testimonial">
+                <img src="avatar-placeholder.jpg" alt="Testimonial 2">
+                <blockquote>"Incredible service! The team behind this project is truly dedicated to customer satisfaction."</blockquote>
+                <cite>Jane Smith, Marketing Director</cite>
+            </div>
+        </div>
+    </section>
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <h2 class="section-heading">Contact Us</h2>
+            <form action="#" method="POST">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="message" placeholder="Your Message" rows="4" required></textarea>
+                <button type="submit" class="btn">Send Message</button>
+            </form>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Your Brand. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+
+</html>
